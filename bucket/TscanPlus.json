@@ -1,17 +1,17 @@
 {
-    "version": "3.3.4",
+    "version": "3.3.5",
     "description": "一款综合性网络安全检测和运维工具，旨在快速资产发现、识别、检测，构建基础资产信息库，协助甲方安全团队或者安全运维人员有效侦察和检索资产，发现存在的薄弱点和攻击面。",
     "homepage": "https://github.com/TideSec/TscanPlus",
     "license": "Unknown",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/TideSec/TscanPlus/releases/download/v3.3.4/TscanPlus_Win_Amd64.zip",
-            "hash": "045f80c47da00ffeecbc0889bbddc0792a926b4d240d3cf59ac7211b1320f7a5",
+            "url": "https://github.com/TideSec/TscanPlus/releases/download/v3.3.5/TscanPlus_Win_Amd64.zip",
+            "hash": "8b6e28e32456b068ea8883afbb61ab2b252ad3dbf8839a7a0b647aaa4b468722",
             "pre_install": "Rename-Item \"$dir\\TscanPlus_Win_Amd64.exe\" 'TscanPlus.exe'"
         },
         "arm64": {
-            "url": "https://github.com/TideSec/TscanPlus/releases/download/v3.3.4/TscanPlus_Win_Arm64.zip",
-            "hash": "14c2c309e4cea6617196da256db6cd8f2cc1b2dd8f62ba4faea03d157f798606",
+            "url": "https://github.com/TideSec/TscanPlus/releases/download/v3.3.5/TscanPlus_Win_Arm64.zip",
+            "hash": "a27d8710b3aac39f1d331ced20dbd266a99a2b95d2487ec7a40c4b6aa279ba88",
             "pre_install": "Rename-Item \"$dir\\TscanPlus_Win_Arm64.exe\" 'TscanPlus.exe'"
         }
     },
